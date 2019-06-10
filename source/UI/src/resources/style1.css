@@ -1,0 +1,56 @@
+.button{
+       -fx-background-color:#18004a;
+       -fx-background-radius: 5,4,3,5;
+       -fx-background-insets: 0,1,2,0;
+       -fx-text-fill: white;
+       -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+       -fx-font-family: "Arial";
+       -fx-text-fill: linear-gradient(white, #d0d0d0);
+       -fx-font-size: 15px;
+ }
+
+.button:hover{
+    -fx-background-color:eec1ad;
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+    -fx-font: 20px "Serif";
+    -fx-font-weight: bold;
+}
+
+#GameType, #NumberOfPlayers, #Time, #CurrentPlayer{
+    -fx-font: 20px "System Bold";
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 0 5px;
+}
+
+#setStyle{
+    -fx-background-color:#6497b1;
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 15px;
+}
+
+#setStyle:hover{
+     -fx-background-color:eec1ad;
+     -fx-font-size:18px;
+     -fx-font-weight: bold;
+}
+
+#table{
+    -fx-border-color: silver;
+    -fx-background-color: silver;
+}
+
+#borderPane{
+   -fx-background-color: #b3cde0;
+   -fx-border-color: gray;
+ }
+
+#borderPane #board{
+    -fx-background-color:#6497b1;
+}

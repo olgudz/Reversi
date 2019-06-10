@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Reversi.xsd">
+	<GameType>Basic</GameType>
+	<Game>
+		<Board rows="6" columns="7"/>
+		<Variant>Regular</Variant>
+		<InitialPositions>
+			<Participant number="1">
+				<Position row="2" column="2"/>
+				<Position row="2" column="3"/>
+			</Participant>
+			<Participant number="2">
+				<Position row="1" column="2"/>
+				<Position row="1" column="3"/>
+			</Participant>
+		</InitialPositions>
+	</Game>
+	<Players>
+		<Player id="233">
+			<Name>Mushon</Name>
+			<Type>Human</Type>
+		</Player>
+		<Player id="143">
+			<Name>Menash</Name>
+			<Type>Human</Type>
+		</Player>
+		<Player id="456">
+			<Name>Nachtze</Name>
+			<Type>Computer</Type>
+		</Player>
+	</Players>
+	<DynamicPlayers game-title="sample game" total-players="3"/>
+</GameDescriptor>

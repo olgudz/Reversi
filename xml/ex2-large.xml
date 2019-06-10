@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Reversi.xsd">
+	<GameType>MultiPlayer</GameType>
+	<Game>
+		<Board rows="40" columns="25"/>
+		<Variant>Islands</Variant>
+		<InitialPositions>
+			<Participant number="1">
+				<Position row="1" column="1"/>
+			</Participant>
+			<Participant number="2">
+				<Position row="1" column="8"/>
+			</Participant>
+			<Participant number="3">
+				<Position row="8" column="8"/>
+			</Participant>
+			<Participant number="4">
+				<Position row="8" column="1"/>
+			</Participant>
+		</InitialPositions>
+	</Game>
+	<Players>
+		<Player id="233">
+			<Name>Mushon</Name>
+			<Type>Human</Type>
+		</Player>
+		<Player id="143">
+			<Name>Menash</Name>
+			<Type>Human</Type>
+		</Player>
+		<Player id="3">
+			<Name>Brurya</Name>
+			<Type>Computer</Type>
+		</Player>
+		<Player id="456">
+			<Name>Bilhaa</Name>
+			<Type>Human</Type>
+		</Player>
+	</Players>
+</GameDescriptor>
